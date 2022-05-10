@@ -8,7 +8,57 @@
     font-weight: 600;
     line-height: 1.3em;
 }
+.cupcake{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.cupcake1 {
+    margin: 30px;
+}
+.cupcake2 {
+    margin: 30px;
+}
+.cupcake3 {
+    margin: 30px;
+}
 
+.Tortas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.tortas1 {
+    margin: 30px;
+}
+.tortas2 {
+    margin: 30px;
+}
+.tortas3 {
+    margin: 30px;
+}
+.tortas4 {
+    margin: 30px;
+}
+.tortas5 {
+    margin: 30px;
+}
+.tortas6 {
+    margin: 30px;
+}
+.tortas7 {
+    margin: 30px;
+}
+.tortas8 {
+    margin: 30px;
+}
 .a .nav-class{
     padding: 4px 15px;
 }

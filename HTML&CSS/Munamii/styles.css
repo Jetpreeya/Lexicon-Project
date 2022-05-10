@@ -8,6 +8,13 @@
     font-weight: 600;
     line-height: 1.3em;
 }
+.logo{
+    padding: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+    position: center;
+}
 .cupcake{
     display: flex;
     flex-direction: row;
@@ -100,3 +107,51 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .Owner #img {
+    border-radius: 50%;
+  }
+  .icon {
+      display: flex;
+      margin-left: 10 px; 
+  }
+  .facebook {
+      margin: 30 px;
+      margin-left: 10 px;
+  }
+
+  /* For desktops: */
+@media only screen and (min-width: 992px) {
+    #grid-floats .grid-item, #grid-flex .grid-item{
+        width: 25%;
+    }
+    #grid-floats .grid-item:nth-child(1) {
+    width: 47%;
+  }
+  #grid-floats .grid-item:nth-child(2) {
+    width: 23%;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #grid-floats .grid-item, #grid-flex .grid-item{
+        width: 33.33%;
+    }
+    #grid-floats .grid-item:nth-child(1) {
+        width: 48.5%;
+      }
+      #grid-floats .grid-item:nth-child(2) {
+        width: 48.5%;
+      }
+}
+
+/* For mobile: */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    #grid-floats .grid-item, #grid-flex .grid-item{
+        width: 50%;
+    }
+    #grid-floats .grid-item:nth-child(1) {
+        width: 97.5%;
+      }
+}

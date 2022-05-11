@@ -1,21 +1,31 @@
-.Home-page{
+.Home-page {
     display: flex;
+    background-image: url("https://img.freepik.com/free-photo/frame-food-ingredients-baking-gently-pink-pastel-surface_127032-2140.jpg " );
 }
+
 .nav-class {
-    padding: 0px 40px 0px 0px ;
-    color: aliceblue;
+    padding: 0px 40px 0px 0px;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.logo{
-    padding: 100px;
-    margin-top: 150px;
-    margin-left: 50px;
+
+.main-nav {
+    padding: 10px;
     text-align: center;
     position: center;
 }
-.cupcake{
+
+.logo {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: center;
+}
+
+.cupcake {
     display: flex;
     flex-direction: row;
     margin: 20px;
@@ -23,6 +33,7 @@
     padding-left: 20px;
     text-align: center;
 }
+
 .cupcake1 {
     margin: 30px;
 }
@@ -32,8 +43,23 @@
 .cupcake3 {
     margin: 30px;
 }
+.cupcake4 {
+    margin: 30px;
+}
+.cupcake5 {
+    margin: 30px;
+}
+.cupcake6 {
+    margin: 30px;
+}
+.cupcake7 {
+    margin: 30px;
+}
+.cupcake8 {
+    margin: 30px;
+}
 
-.Tortas{
+.Tortas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -42,61 +68,71 @@
     padding-left: 20px;
     text-align: center;
 }
+
 .tortas1 {
     margin: 30px;
 }
+
 .tortas2 {
     margin: 30px;
 }
+
 .tortas3 {
     margin: 30px;
 }
+
 .tortas4 {
     margin: 30px;
 }
+
 .tortas5 {
     margin: 30px;
 }
+
 .tortas6 {
     margin: 30px;
 }
+
 .tortas7 {
     margin: 30px;
 }
+
 .tortas8 {
     margin: 30px;
 }
-.a .nav-class{
+
+.a .nav-class {
     padding: 4px 15px;
 }
+
 .container {
     position: relative;
     width: 50%;
-  }
-  
-  .image {
+}
+
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     bottom: 100%;
     left: 0;
     right: 0;
     overflow: hidden;
     width: 100%;
-    height:0;
+    height: 0;
     transition: .5s ease;
-  }
-  
-  .container:hover .overlay {
+}
+
+.container:hover .overlay {
     bottom: 0;
     height: 100%;
-  }
-  
-  .text {
+}
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -106,52 +142,78 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  .Owner #img {
+.Owner #img {
     border-radius: 50%;
-  }
-  .icon {
-      display: flex;
-      margin-left: 10 px; 
-  }
-  .facebook {
-      margin: 30 px;
-      margin-left: 10 px;
-  }
+}
 
-  /* For desktops: */
+.icon {
+    display: flex;
+    margin-left: 10px;
+}
+
+.facebook {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.instragrame {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.WhatsApp {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+/* For desktops: */
 @media only screen and (min-width: 992px) {
-    #grid-floats .grid-item, #grid-flex .grid-item{
+
+    #grid-floats .grid-item,
+    #grid-flex .grid-item {
         width: 25%;
     }
+
     #grid-floats .grid-item:nth-child(1) {
-    width: 47%;
-  }
-  #grid-floats .grid-item:nth-child(2) {
-    width: 23%;
-  }
+        width: 47%;
+    }
+
+    #grid-floats .grid-item:nth-child(2) {
+        width: 23%;
+    }
 }
 
 /* For tablets: */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    #grid-floats .grid-item, #grid-flex .grid-item{
+
+    #grid-floats .grid-item,
+    #grid-flex .grid-item {
         width: 33.33%;
     }
+
     #grid-floats .grid-item:nth-child(1) {
         width: 48.5%;
-      }
-      #grid-floats .grid-item:nth-child(2) {
+    }
+
+    #grid-floats .grid-item:nth-child(2) {
         width: 48.5%;
-      }
+    }
 }
 
 /* For mobile: */
 @media only screen and (min-width: 375px) and (max-width: 812px) {
-    #grid-floats .grid-item, #grid-flex .grid-item{
+
+    #grid-floats .grid-item,
+    #grid-flex .grid-item {
         width: 50%;
     }
+
     #grid-floats .grid-item:nth-child(1) {
         width: 97.5%;
-      }
+    }
 }

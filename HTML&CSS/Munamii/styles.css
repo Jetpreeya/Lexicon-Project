@@ -1,6 +1,6 @@
 .Home-page {
     display: flex;
-    background-image: url("https://img.freepik.com/free-photo/frame-food-ingredients-baking-gently-pink-pastel-surface_127032-2140.jpg " );
+    background-image: url("https://img.freepik.com/free-photo/frame-food-ingredients-baking-gently-pink-pastel-surface_127032-2140.jpg ");
 }
 
 .nav-class {
@@ -38,24 +38,31 @@
 .cupcake1 {
     margin: 30px;
 }
+
 .cupcake2 {
     margin: 30px;
 }
+
 .cupcake3 {
     margin: 30px;
 }
+
 .cupcake4 {
     margin: 30px;
 }
+
 .cupcake5 {
     margin: 30px;
 }
+
 .cupcake6 {
     margin: 30px;
 }
+
 .cupcake7 {
     margin: 30px;
 }
+
 .cupcake8 {
     margin: 30px;
 }
@@ -102,6 +109,7 @@
 .tortas8 {
     margin: 30px;
 }
+
 .tortas9 {
     margin: 30px;
 }
@@ -149,14 +157,18 @@
     text-align: center;
 }
 
-.Owner #img {
-    border-radius: 50%;
+.Owner {
+    border-radius: 58%;
+}
+.TopOwner{
+    text-align: center;
+    color: rgb(80, 48, 131);
 }
 
 .icon {
     display: inline-grid;
     row-gap: 50px;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
 
 .facebook {
@@ -178,33 +190,50 @@
     margin-right: 50px;
 }
 
-.Acerca{
+.Acerca {
+    display: grid;
+    grid-row: inherit;
+    text-align: center;
+}
+
+.Owner {
     position: center;
     text-align: center;
 }
-.Owner{
+
+.Envios {
     position: center;
     text-align: center;
 }
-.Envios{
-    position: center;
-    text-align: center;
-}
-.Envios.deliver{
+
+.Envios1{
+    display: grid;
+    grid-row: inherit;
+    }
+
+.Envios.deliver {
     text-decoration: solid;
     text-decoration-color: rgb(4, 4, 63);
 }
 
-.footer{
+.footer {
     position: center;
     text-align: center;
     background-color: bisque;
 }
-.info{
+
+.info {
     background-color: blanchedalmond;
 }
-.email{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.join {
+    size: 28px;
+    text-decoration: solid;
+    color: rgb(8, 44, 8);
+}
+
+.email {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkolivegreen;
 }
 

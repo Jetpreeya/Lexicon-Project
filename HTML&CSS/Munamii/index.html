@@ -15,14 +15,15 @@
     <div class="Home-page">
         <div class="nav-class">
             <nav class="main-nav">
-                <a href="">Home</a>
-                <a href="">About us</a>
-                <a href="">Products</a>
-                <a href="">Contact</a>
-
+                <a href="#Home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About us</a>
+                <a href="#Contact">Contact</a>
+                <input type="text" name="search" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i> Search</button>
             </nav>
         </div>
-        <div class="logo">
+        <div class="logo" id ="Home">
             <img src="https://s3-us-west-2.amazonaws.com/api.starngage.media.profile/20969231_1934277320165960_5368196446933745664_a.jpg"
                 alt="Logo" width="132" height="132">
             <h1>LLegámos a tu casa!</h1>
@@ -31,35 +32,15 @@
     </div>
     <!-- Second Part -->
     <div class="Second-part">
-        <div class="nav-two">
+        <div class="nav-two" id ="products">
             <nav class="second-nav">
-                <a href="">Cupcakes</a>
-                <a href="">Tortas</a>
-                <a href="">Promos</a>
-                <button type="submit"><i class="fa fa-search"></i> Search</button>
-                <input type="text" name="search" placeholder="Search..">
+                <a href="#cupcake">Cupcakes</a>
+                <a href="#Tortas">Tortas</a>  
             </nav>
-            <p>Hola! Bienvenido a Munamii Cakery! Te ofrecemos las más ricas tortas y cupcakes para todo tipo de eventos
-                y celebraciones.
-                Selecciona acontinuación que te gustaria comprar.</p>
-            <h2>Utvalda produkter</h2>
         </div>
 
-        <div class="container">
-            <img src="https://static.onecms.io/wp-content/uploads/sites/24/2022/02/23/Macaron_Cake_054-1-2000.jpg"
-                alt="CakeSlide" width="300" height="200">
-            <div class="overlay">
-                <div class="text">
-                    <img src="https://bromabakery.com/wp-content/uploads/2020/09/Cardamom-Carrot-Cake-1067x1600.jpg"
-                        alt="CakeSlide" width="300" height="200">
-                </div>
-            </div>
-            <h3>Month Baby Cake</h3>
-            <h4>$55.00</h4>
-            <button type="submit"><i class="fa fa-search"></i> Buy now</button>
-        </div>
         <h2>Cupcakes</h2>
-        <div class="cupcake">
+        <div class="cupcake" id="cupcake">
             <div class="cupcake1">
                 <img src="https://i2.wp.com/completelydelicious.com/wp-content/uploads/2012/05/small-batch-funfetti-cupcakes-4-of-6-660x880.jpg"
                     alt="CupcakeRainbow" width="150" height="200">
@@ -118,7 +99,7 @@
             </div>
         </div>
         <h2>Tortas</h2>
-        <div class="Tortas">
+        <div class="Tortas" id ="Tortas">
             <div class="tortas1">
                 <img src="https://preppykitchen.com/wp-content/uploads/2018/04/Funfetti-cake-recipe-new.jpg"
                     alt="Rainbowcake" width="200" height="220">
@@ -183,15 +164,14 @@
                 <button type="submit"><i class="fa fa-search"></i> Buy now</button>
             </div>
         </div>
-        <div class="AboutUs">
+        <div class="AboutUs" id ="about">
             <div class="Acerca">
-                <h2>Acerca de</h2>
-                <p>En Munamii Cakery, cada torta, cada caja de cupcakes que hacemos tiene un valor muy especial para
-                    nosotros.
-                    No solo queremos llevar a tu mesa un postre si no mas bien una experiencia unica para ti, que se
-                    convertira en un recuerdo inovidable.
-                    Tenemos ya mas de 8 ańos en el mercado de la pasteleria y ahora te ofrecemos una nueva manera de
-                    comprar por nuestro sitio web. </p>
+                <h2>About Us</h2>
+                <p> At Munamii Cakery, every cake, every box of cupcakes we make has a very special value for us. 
+                    Not only do we want to bring a dessert to your table, but rather a unique experience for you, 
+                    which will become an unforgettable memory. We already have more than 8 years in the pastry market 
+                    and now we offer you a new way to buy through our website.
+                </p>
             </div>
             <div class="Owner">
                 <img src="https://d2j6dbq0eux0bg.cloudfront.net/startersite/images/16830190/1593284287541.jpg" alt
@@ -200,14 +180,13 @@
                 <p class="title">Propietaria fundadora</p>
             </div>
             <div class="Envios">
-                <h2>Envios y entregas</h2>
-                <p> Servicio de entrega a domicilio: Toda la ciudad de Guayaquil y Samborondon con costo adicional.
-                    Lugar de retirar pedido: Sector Via la Costa cdla. Puerto azul. Enviaremos Ubicacion Gps.
-                    Los pedidos deben ser ordenados 2 dias antes para mayor seguridad, elaboracion y disponibilidad
-                    Martes a Sabado
-                    9 a.m. a 2 p.m.
-                </p>
-                <div class="icon">
+                <h2>Home delivery</h2>
+                <p> service: All Guayaquil and Samborondon cities at additional cost.</p>
+                <p> Pedigree Retreat: Sector Via la Costa cdla. Puerto azul. We will send Ubicacion Gps.</p>
+                <p>The peddos should be arranged 2 days before the mayor's safety, elaboration and availability</p>
+                <p>Martes and Sabado 9 a.m. at 2 p.m.</p>
+
+                <div class="icon" id ="Contact">
                     <div class="facebook">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" width="50"
                             height="50">

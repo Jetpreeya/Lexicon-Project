@@ -9,6 +9,7 @@
     font-weight: 600;
     line-height: 1.3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 .main-nav {
@@ -171,6 +172,14 @@
     margin-right: 50px;
 }
 
+.Acerca{
+    position: center;
+    text-align: center;
+}
+.Owner{
+    position: center;
+    text-align: center;
+}
 /* For desktops: */
 @media only screen and (min-width: 992px) {
 

@@ -68,6 +68,7 @@
     margin-right: 20px;
     padding-left: 20px;
     text-align: center;
+    border-bottom: 1px solid rgb(145, 140, 140);
 }
 
 .tortas1 {
@@ -99,6 +100,9 @@
 }
 
 .tortas8 {
+    margin: 30px;
+}
+.tortas9 {
     margin: 30px;
 }
 
@@ -150,14 +154,16 @@
 }
 
 .icon {
-    display: flex;
-    margin-left: 10px;
+    display: inline-grid;
+    row-gap: 50px;
+    margin-left: 10px;    
 }
 
 .facebook {
     display: flex;
     margin-left: 30px;
     margin-right: 50px;
+    position: center;
 }
 
 .instragrame {
@@ -180,6 +186,29 @@
     position: center;
     text-align: center;
 }
+.Envios{
+    position: center;
+    text-align: center;
+}
+.Envios.deliver{
+    text-decoration: solid;
+    text-decoration-color: rgb(4, 4, 63);
+}
+
+.footer{
+    position: center;
+    text-align: center;
+    background-color: bisque;
+}
+.info{
+    background-color: blanchedalmond;
+}
+.email{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkolivegreen;
+}
+
+
 /* For desktops: */
 @media only screen and (min-width: 992px) {
 

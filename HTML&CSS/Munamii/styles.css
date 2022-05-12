@@ -1,6 +1,10 @@
 .Home-page {
     display: flex;
-    background-image: url("https://img.freepik.com/free-photo/frame-food-ingredients-baking-gently-pink-pastel-surface_127032-2140.jpg ");
+    background-image: url("https://www.thekitchykitchen.com/wp-content/uploads/2016/04/DSC_6759-836x1024.jpg" );
+    background-size: 100%;
+    background-position: 90% 45%;
+    width: 980px;
+    height: 600px;
 }
 
 .nav-class {
@@ -19,10 +23,14 @@
 }
 
 .logo {
-    padding: 10px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: -200px;
+    margin-top: 150px;
     margin-bottom: 30px;
     text-align: center;
+}
+.logoPicture{
     position: center;
 }
 

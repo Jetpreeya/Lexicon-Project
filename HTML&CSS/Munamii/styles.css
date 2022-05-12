@@ -7,19 +7,20 @@
     height: 600px;
 }
 
-.nav-class {
+.navclass {
+    display: grid;
     padding: 0px 40px 0px 0px;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
 }
 
 .main-nav {
     padding: 10px;
     text-align: center;
     position: center;
+    text-decoration: none;
 }
 
 .logo {
@@ -32,6 +33,26 @@
 }
 .logoPicture{
     position: center;
+}
+.second-nav{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(236, 204, 192);
+    background-color: rgb(236, 234, 193);
+}
+.C1{
+    background-color: rgb(207, 184, 206);
+    width: 200px;
+    text-align: center;
+}
+.C2{
+    background-color: rgb(207, 184, 206);
+    width: 200px;
+    text-align: center;
 }
 .CupcakesHead{
     margin-top: 25px;
@@ -132,6 +153,16 @@
 .tortas9 {
     margin: 30px;
 }
+.tortas10 {
+    margin: 30px;
+}
+.tortas11 {
+    margin: 30px;
+}
+.tortas12 {
+    margin: 30px;
+}
+
 
 .a .nav-class {
     padding: 4px 15px;
@@ -228,7 +259,8 @@
 .Envios1{
     display: grid;
     grid-row: inherit;
-    }
+    text-align: center;
+}
 
 .Envios.deliver {
     text-decoration: solid;

@@ -2,7 +2,7 @@
     display: flex;
     background-image: url("https://www.thekitchykitchen.com/wp-content/uploads/2016/04/DSC_6759-836x1024.jpg" );
     background-size: 100%;
-    background-position: 90% 45%;
+    background-position: 95% 55%;
     width: 980px;
     height: 600px;
 }
@@ -33,13 +33,18 @@
 .logoPicture{
     position: center;
 }
-
+.CupcakesHead{
+    margin-top: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-width: 5px 20px;
+    border-color: rgb(223, 190, 178);
+}
 .cupcake {
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 350px;
     text-align: center;
 }
 
@@ -75,13 +80,19 @@
     margin: 30px;
 }
 
+.TortasHead{
+    margin-top: 45px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-width: 5px 20px;
+    border-color: rgb(223, 190, 178);
+}
 .Tortas {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 390px;
     text-align: center;
     border-bottom: 1px solid rgb(145, 140, 140);
 }

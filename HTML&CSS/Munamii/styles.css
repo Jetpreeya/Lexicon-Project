@@ -1,10 +1,11 @@
 .Home-page {
     display: flex;
     background-image: url("https://www.thekitchykitchen.com/wp-content/uploads/2016/04/DSC_6759-836x1024.jpg" );
-    background-size: 100%;
-    background-position: 95% 55%;
+    background-position: 12% 67% ;
     width: 980px;
     height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% ;
 }
 
 .navclass {
@@ -15,14 +16,11 @@
     line-height: 1.3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.main-nav {
-    padding: 10px;
-    text-align: center;
-    position: center;
-    text-decoration: none;
+.searchBTN{
+    color: rgb(207, 190, 190);
+    background-color: rgb(143, 80, 132);
+    font-size: small;
 }
-
 .logo {
     display: flex;
     flex-direction: column;
@@ -34,6 +32,28 @@
 .logoPicture{
     position: center;
 }
+.llega{
+    display: grid;
+    text-align: center;
+    color: rgb(59, 69, 172);
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.btn{
+    color: chocolate;
+    background-color: bisque;
+    font-size: 16px;
+    width: 200px;
+    border: 2px solid #e4dbc9;
+}
+
+.main-nav {
+    padding: 10px;
+    text-align: center;
+    position: center;
+    text-decoration: none;
+}
+
 .second-nav{
     margin-top: 25px;
     display: flex;
@@ -61,12 +81,15 @@
     border-style: solid;
     border-width: 5px 20px;
     border-color: rgb(223, 190, 178);
+    color: darkslateblue;
+    background-color: blanchedalmond;
 }
 .cupcake {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-auto-rows: 350px;
     text-align: center;
+    color: rgb(185, 123, 75);
 }
 
 .cupcake1 {
@@ -108,6 +131,8 @@
     border-style: solid;
     border-width: 5px 20px;
     border-color: rgb(223, 190, 178);
+    color: darkslateblue;
+    background-color: blanchedalmond;
 }
 .Tortas {
     margin: 25px;
@@ -115,7 +140,7 @@
     grid-template-columns: repeat(4, 2fr);
     grid-auto-rows: 390px;
     text-align: center;
-    border-bottom: 1px solid rgb(145, 140, 140);
+    color: rgb(109, 85, 67);
 }
 
 .tortas1 {
@@ -162,7 +187,6 @@
 .tortas12 {
     margin: 30px;
 }
-
 
 .a .nav-class {
     padding: 4px 15px;
@@ -214,10 +238,24 @@
     text-align: center;
     color: rgb(80, 48, 131);
 }
+.Envios {
+    color: darkolivegreen;
+    display: grid;
+    grid-row: inherit;
+    text-align: center;
+}
+.Envios1 {
+    display: grid;
+    grid-row: inherit;
+    text-align: center;
+    color: darkolivegreen;
+}
 
 .icon {
-    display: inline-grid;
-    row-gap: 50px;
+    display: grid;
+    grid-row: inherit;
+    justify-content: center;
+    row-gap: 20px;
     margin-left: 10px;
 }
 
@@ -244,6 +282,7 @@
     display: grid;
     grid-row: inherit;
     text-align: center;
+    color: cornflowerblue;
 }
 
 .Owner {
@@ -251,20 +290,19 @@
     text-align: center;
 }
 
-.Envios {
-    position: center;
-    text-align: center;
-}
-
-.Envios1{
-    display: grid;
-    grid-row: inherit;
-    text-align: center;
-}
-
-.Envios.deliver {
+.aboutUS{
     text-decoration: solid;
-    text-decoration-color: rgb(4, 4, 63);
+    border-style: solid;
+    border-width: 5px 20px;
+    border-color: rgb(185, 200, 223);
+    background-color: rgb(213, 230, 236);
+}
+.deliver {
+    text-decoration: solid;
+    border-style: solid;
+    border-width: 5px 20px;
+    border-color: rgb(198, 221, 188);
+    background-color: rgb(217, 238, 204);
 }
 
 .footer {
@@ -278,6 +316,7 @@
 }
 
 .join {
+    padding-top: 3px;
     size: 28px;
     text-decoration: solid;
     color: rgb(8, 44, 8);
@@ -286,6 +325,16 @@
 .email {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkolivegreen;
+}
+.subscribe{
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: rgb(223, 209, 199);
+    background-color: rgb(66, 75, 50);
+    border-color: none;
+}
+.footer-nav{
+    padding-top: 10px;
 }
 
 

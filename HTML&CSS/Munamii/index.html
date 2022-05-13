@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- First Part -->
+    <!-- Home Page Part -->
     <div class="Home-page">
         <div class="navclass">
             <nav class="main-nav">
@@ -20,7 +20,7 @@
                 <a href="#about">About us</a>
                 <a href="#Contact">Contact</a>
                 <input type="text" name="search" placeholder="Search..">
-                <button type="submit"><i class="fa fa-search"></i> Search</button>
+                <button type="submit" class="searchBTN"><i class="fa fa-search"></i> Search</button>
             </nav>
         </div>
         <div class="logo" id="Home">
@@ -28,16 +28,24 @@
                 <img src="https://s3-us-west-2.amazonaws.com/api.starngage.media.profile/20969231_1934277320165960_5368196446933745664_a.jpg"
                     alt="Logo" width="132" height="132">
             </div>
-            <h1>LLegámos a tu casa!</h1>
-            <button type="button">Comprar!</button>
+            <div class="llega">
+                <h1>LLegámos a tu casa!</h1>
+            </div>
+            <div class="buttonComprar">
+                <button type="button" class="btn">Comprar!</button>
+            </div>
         </div>
     </div>
-    <!-- Second Part -->
+    <!-- Products Part -->
     <div class="Second-part">
         <div class="nav-two" id="products">
             <nav class="second-nav">
-                <a class ="C1" href="/HTML&CSS/Munamii/cupcake.html"><h3>Cupcakes</h3></a>
-                <a class ="C2" href="/HTML&CSS/Munamii/cake.html"><h3>Cake</h3></a>
+                <a class="C1" href="/HTML&CSS/Munamii/cupcake.html">
+                    <h3>Cupcakes</h3>
+                </a>
+                <a class="C2" href="/HTML&CSS/Munamii/cake.html">
+                    <h3>Cake</h3>
+                </a>
             </nav>
         </div>
         <div class="CupcakesHead">
@@ -101,7 +109,7 @@
                 <button type="submit"><i class="fa fa-search"></i> Buy now</button>
             </div>
         </div>
-        <div class ="TortasHead">
+        <div class="TortasHead">
             <h2>Tortas</h2>
         </div>
         <div class="Tortas" id="Tortas">
@@ -183,8 +191,8 @@
                 <button type="submit"><i class="fa fa-search"></i> Buy now</button>
             </div>
             <div class="tortas12">
-                <img src="https://i.pinimg.com/564x/04/8c/a5/048ca5deaf970eb8707e913db73fb9bb.jpg"
-                    alt="BirthdayCake4" width="200" height="220">
+                <img src="https://i.pinimg.com/564x/04/8c/a5/048ca5deaf970eb8707e913db73fb9bb.jpg" alt="BirthdayCake4"
+                    width="200" height="220">
                 <h3>Wedding Cake Global</h3>
                 <h3>$139.00</h3>
                 <button type="submit"><i class="fa fa-search"></i> Buy now</button>
@@ -192,7 +200,7 @@
         </div>
         <div class="AboutUs" id="about">
             <div class="Acerca">
-                <h2>About Us</h2>
+                <h2 class="aboutUS">About Us</h2>
                 <p> At Munamii Cakery, every cake, every box of cupcakes we make has a very special value for us. </p>
                 <p> Not only do we want to bring a dessert to your table, but rather a unique experience for you, </p>
                 <p> which will become an unforgettable memory. We already have more than 8 years in the pastry market
@@ -209,32 +217,40 @@
             </div>
             <div class="Envios">
                 <h2 class="deliver">Home delivery</h2>
-                <div class="Envios1">
-                    <p> Home delivery service: All the city of Stockholm (redacted) and Malmo (redacted) with additional cost.</p>
-                    <p> Place to pick up order: Via la Costa Avenue. Blue Port gated neighbourhood. We will send you the GPS Location via WhatsApp.</p>
-                    <p> Orders must be placed 2 days before for greater security, processing and availability.</p>
-                    <p>Tuesday to Saturday</p>
-                    <p>9 a.m. at 2 p.m</p>
+            </div>
+            <div class="Envios1">
+                <p> Home delivery service: All the city of Stockholm (redacted) and Malmo (redacted) with additional
+                    cost.</p>
+                <p> Place to pick up order: Via la Costa Avenue. Blue Port gated neighbourhood. We will send you the GPS
+                    Location via WhatsApp.</p>
+                <p> Orders must be placed 2 days before for greater security, processing and availability.</p>
+                <p>Tuesday to Saturday</p>
+                <p>9 a.m. at 2 p.m</p>
+            </div>
+            <div class="icon" id="Contact">
+                <div class="facebook">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" width="50"
+                        height="50">
+                    <a href="https://www.facebook.com/" TARGET="_blank">
+                        <p>munamiicupcakes</p>
+                    </a>
                 </div>
-
-                <div class="icon" id="Contact">
-                    <div class="facebook">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" width="50"
-                            height="50">
-                            <a href="https://www.facebook.com/" TARGET="_blank"><p>munamiicupcakes</p></a>
-                    </div>
-                    <div class="instragrame">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
-                            width="50" height="50">
-                        <a href="https://www.instagram.com/" TARGET="_blank"><p>@munamii.cakery</p></a>
-                    </div>
-                    <div class="WhatsApp">
-                        <img src="https://aux2.iconspalace.com/uploads/whatsapp-icon-256-902637335.png" width="50"
-                            height="50">
-                            <a href="https://www.whatsapp.com/?lang=sv/" TARGET="_blank"><p>WhatsApp</p></a>
-                    </div>
+                <div class="instragrame">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                        width="50" height="50">
+                    <a href="https://www.instagram.com/" TARGET="_blank">
+                        <p>@munamii.cakery</p>
+                    </a>
+                </div>
+                <div class="WhatsApp">
+                    <img src="https://aux2.iconspalace.com/uploads/whatsapp-icon-256-902637335.png" width="50"
+                        height="50">
+                    <a href="https://www.whatsapp.com/?lang=sv/" TARGET="_blank">
+                        <p>WhatsApp</p>
+                    </a>
                 </div>
             </div>
+
             <!-- Footer -->
             <div class="footer">
                 <div class="email">
@@ -246,15 +262,13 @@
                     <h3>Your Email</h3>
                     <input type="text" name="search2" placeholder="Email..">
                     <br>
-                    <div class="subscribe">
-                        <button type="submit"><i class="fa fa-search"></i> Subscribe</button>
-                    </div>
+                    <button type="submit" class="subscribe"><i class="fa fa-search"></i> Subscribe</button>
                     <div class="navclassFooter">
                         <nav class="footer-nav">
                             <a href="#Home">Home</a>
                             <a href="#products">Products</a>
                             <a href="#about">About us</a>
-                            <a href ="mailto: munamii@example.com" TARGET="_blank">Send Email to us</a>
+                            <a href="mailto: munamii@example.com" TARGET="_blank">Send Email to us</a>
                         </nav>
                     </div>
                 </div>

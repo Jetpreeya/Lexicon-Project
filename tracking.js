@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 
-const FetchProducts = () => {
+const Tracking = () => {
     const [data, setData] = useState([]);
     const [filter, setFilter] = useState(data);
     const [loading, setLoading] = useState(false);
@@ -57,12 +57,12 @@ const FetchProducts = () => {
                                                 <p className="card-text">Eta: {item.eta}</p>
                                                 <p className="card-parcel">Parcel_id : {item.parcel_id}</p>
                                                 <p className="card-sender">Sender name : {item.sender}</p>
-                                                <p className="card-verification">Verification_required : {item.verification_required}</p>
+                                                <p className="card-verification">Verification_required : {item.verification_required.toString()}</p>
                                                 <p className="card-LocationID">Location_id : {item.location_id}</p>
                                                 <p className="card-name">Location_name : {item.location_name}</p>
                                                 <p className="card-locationLatitude">Location_coordinate_latitude : {item.location_coordinate_latitude}</p>
                                                 <p className="card-longitude">location_coordinate_longitude : {item.location_coordinate_longitude}</p>
-                                                <p className="card-status">Location_status_ok : {item.location_status_ok}</p>
+                                                <p className="card-status">Location_status_ok : {item.location_status_ok.toString()}</p>
                                                 <p className="card-phone">User_Phone : {item.user_phone}</p>
                                                 <p className="card-Username">User_name : {item.user_name}</p>
                                                 <p className="card-Notes">Notes : {item.notes}</p>
@@ -99,10 +99,10 @@ const FetchProducts = () => {
     )
 }
 
-FetchProducts.propTypes = {
+Tracking.propTypes = {
     id: PropTypes.number,
     price: PropTypes.number,
     title: PropTypes.string,
 }
 
-export default FetchProducts
+export default Tracking
